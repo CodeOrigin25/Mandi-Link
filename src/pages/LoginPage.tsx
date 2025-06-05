@@ -106,7 +106,7 @@ const LoginPage: React.FC = () => {
 >
 
 
-                  Login In
+                  Log In
                 </Button>
                 
                 <div className="text-center text-sm">

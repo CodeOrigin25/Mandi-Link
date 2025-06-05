@@ -240,41 +240,12 @@ const AboutPage: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {[
                     {
-                      name: 'Rajesh Patel',
+                      name: 'Pavan Kumar S',
                       position: 'Founder & CEO',
-                      bio: 'With 20+ years of experience in agricultural markets, Rajesh leads our mission to revolutionize APMC trading.',
-                      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150'
-                    },
-                    {
-                      name: 'Priya Sharma',
-                      position: 'Chief Technology Officer',
-                      bio: 'Priya brings 15 years of tech expertise, driving our platform development and digital innovation strategies.',
-                      image: 'https://images.pexels.com/photos/5905705/pexels-photo-5905705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150'
-                    },
-                    {
-                      name: 'Anil Kumar',
-                      position: 'Head of Operations',
-                      bio: 'Anil oversees our day-to-day operations, ensuring smooth functioning across all markets and regions.',
-                      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150'
-                    },
-                    {
-                      name: 'Meera Reddy',
-                      position: 'Market Relations Director',
-                      bio: 'Meera manages our relationships with APMC markets across the country, expanding our network and influence.',
-                      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150'
-                    },
-                    {
-                      name: 'Vijay Singh',
-                      position: 'Agricultural Expert',
-                      bio: 'With a PhD in Agricultural Economics, Vijay provides valuable insights for our market analysis and strategies.',
-                      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150'
-                    },
-                    {
-                      name: 'Sunita Devi',
-                      position: 'Customer Success Manager',
-                      bio: 'Sunita ensures all our users—traders, producers, and consumers—have the best possible platform experience.',
-                      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150'
+                      bio: 'Just an average student',
+                      image: '/images/profile-pic.jpg'  // leading slash means from public root
                     }
+
                   ].map((member, index) => (
                     <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden flex flex-col">
                       <div className="h-48 overflow-hidden">
